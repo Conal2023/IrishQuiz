@@ -39,3 +39,28 @@ else:
     print("Incorrect! The answer is Laois")
     print("Score: ", score)
     print("\n")
+
+# QUESTION 4
+answer4 = input("What is the most northerly county in Ireland \
+ \na. Derry \nb. Donegal \nc. Antrim \nAnswer: ")
+if answer4 == "b" or answer4 == "Donegal":
+    score += 1
+    print("Correct!")
+    print("Score: ", score)
+    print("\n")
+else:
+    print("Incorrect! The answer is Donegal")
+    print("Score: ", score)
+    print("\n")
+
+# QUESTION 
+answer = input(" \na.  \nb.  \nc.  \nAnswer: ")
+if answer == "" or answer == "":
+    score += 1
+    print("Correct!")
+    print("Score: ", score)
+    print("\n")
+else:
+    print("Incorrect! The answer is ")
+    print("Score: ", score)
+    print("\n")
