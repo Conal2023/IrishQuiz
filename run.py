@@ -91,3 +91,42 @@ else:
     print("Incorrect! The answer is ")
     print("Score: ", score)
     print("\n")
+
+# QUESTION 8
+answer8 = input("Name the county town of Leitrim? \
+     \na. Leitrim \nb. Carrick-On-Shannon \nc. Cloone \nAnswer: ")
+if answer8 == "b" or answer8 == "Carrick-On-Shannon":
+    score += 1
+    print("Correct!")
+    print("Score: ", score)
+    print("\n")
+else:
+    print("Incorrect! The answer is Carrick-On-Shannon")
+    print("Score: ", score)
+    print("\n")
+
+# QUESTION 9
+answer9 = input("What is the largest park in Dublin? \
+    \na. Phoenix Park \nb. Iveagh Gardens \nc. St Stephen's Green \nAnswer: ")
+if answer9 == "a" or answer9 == "Phoenix Park":
+    score += 1
+    print("Correct!")
+    print("Score: ", score)
+    print("\n")
+else:
+    print("Incorrect! The answer is Phoenix Park")
+    print("Score: ", score)
+    print("\n")
+
+# QUESTION 10
+answer10 = input("What is the smallest County in Ireland? \
+     \na. Carlow \nb. Leitrim \nc. Louth \nAnswer: ")
+if answer10 == "c" or answer10 == "Louth":
+    score += 1
+    print("Correct!")
+    print("Score: ", score)
+    print("\n")
+else:
+    print("Incorrect! The answer is Louth")
+    print("Score: ", score)
+    print("\n")
