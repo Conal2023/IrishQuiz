@@ -53,9 +53,36 @@ else:
     print("Score: ", score)
     print("\n")
 
-# QUESTION 
-answer = input(" \na.  \nb.  \nc.  \nAnswer: ")
-if answer == "" or answer == "":
+# QUESTION 5
+answer5 = input("Which famous river runs through Dublin? \
+     \na. Shannon  \nb. Liffey \nc. Lee \nAnswer: ")
+if answer5 == "b" or answer5 == "Liffey":
+    score += 1
+    print("Correct!")
+    print("Score: ", score)
+    print("\n")
+else:
+    print("Incorrect! The answer is Liffey")
+    print("Score: ", score)
+    print("\n")
+
+# QUESTION 6
+answer6 = input("Which County K has the Nore and the Barrow? \
+ \na. Kildare \nb. Kerry \nc. Kilkenny \nAnswer: ")
+if answer6 == "c" or answer6 == "Kilkenny":
+    score += 1
+    print("Correct!")
+    print("Score: ", score)
+    print("\n")
+else:
+    print("Incorrect! The answer is ")
+    print("Score: ", score)
+    print("\n")
+
+# QUESTION 7
+answer7 = input("Athlone is situated at the southern end of which lake? \
+     \na. Lough Ree \nb. Lough Leane \nc. Lough Neagh \nAnswer: ")
+if answer7 == "a" or answer7 == "Lough Ree":
     score += 1
     print("Correct!")
     print("Score: ", score)
