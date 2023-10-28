@@ -130,3 +130,11 @@ else:
     print("Incorrect! The answer is Louth")
     print("Score: ", score)
     print("\n")
+
+# FINAL MESSAGE
+if score <= 3:
+    print("Your total score is:", score, "- Your not Irish!")
+elif score <= 7:
+    print("Your total score is:", score, "- Your getting there!")
+else:
+    print("Your total score is:", score, "- Your Irish!")
