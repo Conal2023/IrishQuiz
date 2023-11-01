@@ -48,6 +48,50 @@ def question_three(score):
     
     question_four(score)
 
+def question_four(score):
+    
+    # QUESTION 4
+    answer4 = input("What is the most northerly county in Ireland? \n1. Derry \n2. Donegal \n3. Antrim \nAnswer: ").lower()
+    if answer4 == "2" or answer4 == "donegal":
+        score = correct_answer(score)
+    else:
+        wrong_answer("Donegal", score)
+    
+    question_five(score)
+
+def question_five(score):
+    
+    # QUESTION 5
+    answer5 = input("Which famous river flows through Dublin \n1. Shannon \n2. Liffey \n3. Lee \nAnswer: ").lower()
+    if answer5 == "2" or answer5 == "liffey":
+        score = correct_answer(score)
+    else:
+        wrong_answer("Liffey", score)
+    
+    question_six(score)
+
+def question_six(score):
+    
+    # QUESTION 6
+    answer6 = input("Which County K has the Nore and the Barrow? \n1. Kildare \n2. Kerry \n3. Kilkenny \nAnswer: ").lower()
+    if answer6 == "3" or answer6 == "kilkenny":
+        score = correct_answer(score)
+    else:
+        wrong_answer("Kilkenny", score)
+    
+    question_seven(score)
+
+def question_seven(score):
+    
+    # QUESTION 7
+    answer7 = input("Athlone is situated at the southern end of which lake? \n1. Lough Ree \n2. Lough Leane \n3. Lough Neagh \nAnswer: ").lower()
+    if answer7 == "1" or answer7 == "lough ree":
+        score = correct_answer(score)
+    else:
+        wrong_answer("Lough Ree", score)
+    
+    question_eight(score)
+
 def wrong_answer(correct_answer, score):
     print("Incorrect! The answer is " + correct_answer)
     print("Score: ", score)
