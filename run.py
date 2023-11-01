@@ -26,6 +26,17 @@ def question_one():
     
     question_two(score)
 
+def question_two(score):
+    
+    # QUESTION 2
+    answer2 = input("What province of Ireland is Dublin in? \n1. Ulster \n2. Leinster \n3. Munster \nAnswer: ").lower()
+    if answer2 == "2" or answer2 == "leinster":
+        score = correct_answer(score)
+    else:
+        wrong_answer("Leinster", score)
+    
+    question_three(score)
+
 def wrong_answer(correct_answer, score):
     print("Incorrect! The answer is " + correct_answer)
     print("Score: ", score)
