@@ -92,6 +92,37 @@ def question_seven(score):
     
     question_eight(score)
 
+def question_eight(score):
+    
+    # QUESTION 8
+    answer8 = input("Name the county town of Leitrim? \n1. Leitrim \n2. Carrick-On-Shannon \n3. Cloone \nAnswer: ").lower()
+    if answer8 == "2" or answer8 == "carrick-on-shannon":
+        score = correct_answer(score)
+    else:
+        wrong_answer("Carrick-On-Shannon", score)
+    
+    question_nine(score)
+
+def question_nine(score):
+    
+    # QUESTION 9
+    answer9 = input("What is the largest park in Dublin? \n1. Phoenix Park \n2. Iveagh Gardens \n3. St Stephen's Green \nAnswer: ").lower()
+    if answer9 == "1" or answer9 == "phoenix park":
+        score = correct_answer(score)
+    else:
+        wrong_answer("Phoenix Park", score)
+    
+    question_ten(score)
+
+def question_ten(score):
+    
+    # QUESTION 10
+    answer10 = input("What is the smallest County in Ireland? \n1. Carlow \n2. Leitrim \n3. Louth \nAnswer: ").lower()
+    if answer10 == "3" or answer10 == "louth":
+        score = correct_answer(score)
+    else:
+        wrong_answer("Louth", score)
+    
 def wrong_answer(correct_answer, score):
     print("Incorrect! The answer is " + correct_answer)
     print("Score: ", score)
