@@ -37,6 +37,17 @@ def question_two(score):
     
     question_three(score)
 
+def question_three(score):
+    
+    # QUESTION 3
+    answer3 = input("What is the largest county in Ireland? \n1. Cork \n2. Limerick \n3. Kerry \nAnswer: ").lower()
+    if answer3 == "1" or answer3 == "cork":
+        score = correct_answer(score)
+    else:
+        wrong_answer("Cork", score)
+    
+    question_four(score)
+
 def wrong_answer(correct_answer, score):
     print("Incorrect! The answer is " + correct_answer)
     print("Score: ", score)
