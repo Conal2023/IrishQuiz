@@ -1,19 +1,26 @@
 def intro():
-    print(
-        """
-    ██╗██████╗ ██╗███████╗██╗  ██╗     ██████╗ ██╗   ██╗██╗███████╗
-    ██║██╔══██╗██║██╔════╝██║  ██║    ██╔═══██╗██║   ██║██║╚══███╔╝
-    ██║██████╔╝██║███████╗███████║    ██║   ██║██║   ██║██║  ███╔╝
-    ██║██╔══██╗██║╚════██║██╔══██║    ██║▄▄ ██║██║   ██║██║ ███╔╝
-    ██║██║  ██║██║███████║██║  ██║    ╚██████╔╝╚██████╔╝██║███████╗
-    ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝     ╚══▀▀═╝  ╚═════╝ ╚═╝╚══════╝
-        """
-    )
-    print("Welcome to the Irish Quiz!")
-    input("Press Enter to start the quiz")
-    print("Hello and welcome to the Irish Quiz")
-    print("Good luck!")
-    question_one()
+    play_again = True
+
+    while play_again:
+        print(
+            """
+        ██╗██████╗ ██╗███████╗██╗  ██╗     ██████╗ ██╗   ██╗██╗███████╗
+        ██║██╔══██╗██║██╔════╝██║  ██║    ██╔═══██╗██║   ██║██║╚══███╔╝
+        ██║██████╔╝██║███████╗███████║    ██║   ██║██║   ██║██║  ███╔╝
+        ██║██╔══██╗██║╚════██║██╔══██║    ██║▄▄ ██║██║   ██║██║ ███╔╝
+        ██║██║  ██║██║███████║██║  ██║    ╚██████╔╝╚██████╔╝██║███████╗
+        ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝     ╚══▀▀═╝  ╚═════╝ ╚═╝╚══════╝
+            """
+        )
+        print("Welcome to the Irish Quiz!")
+        input("Press Enter to start the quiz")
+        print("Hello and welcome to the Irish Quiz")
+        print("Good luck!")
+        question_one()
+
+        play_again_response = input("Do you want to play again? (yes/no): ")
+        if play_again_response != "yes":
+            play_again = False
 
 
 def question_one():
