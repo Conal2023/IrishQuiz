@@ -2,9 +2,13 @@
 
 **Irish Quiz** is a simple command-line quiz game to test the players knowledge of Ireland. The quiz has ten multi choice questions relating to Ireland. 
 
+## Project Goals:
+
+The primary goal of this project is to create a quiz that allows users to test their knowledge and learn new facts about Ireland. 
+
 ## How to Play:
 
- - When the player opens up the quiz they are met with "IRISH QUIZ" in     ascii art with a welcome message "Welcome to the Irish Quiz". This is followed by another message "Press Enter to start the quiz". 
+ - When the player opens up the quiz they are met with "IRISH QUIZ" in     ASCII art with a welcome message "Welcome to the Irish Quiz". This is followed by another message "Press Enter to start the quiz". 
 
  - The player will need to hit Enter to go any further. Once the player hits Enter two messages will pop up "Hello and welcome to the Irish Quiz" and "Good luck!". This is then followed with the first question. 
 
