@@ -18,8 +18,8 @@
 
  The target audience for the Irish Quiz could include:
 
-    - General Knowledge Enthusiasts: People who enjoy testing their knowledge on a variety of topics and maybe want to learn more about Ireland. 
+- General Knowledge Enthusiasts: People who enjoy testing their knowledge on a variety of topics and maybe want to learn more about Ireland. 
 
-    - Students and Teachers: Educators who want to incorporate a fun and educational quiz about Ireland into their classroom activites, or students who are looking to supplement their education needs. 
+- Students and Teachers: Educators who want to incorporate a fun and educational quiz about Ireland into their classroom activites, or students who are looking to supplement their education needs. 
 
-    - Pubs and Social Gatherings: Friends and groups looking for a fun and engaging activity to do together, especially in a pub or social setting. 
+- Pubs and Social Gatherings: Friends and groups looking for a fun and engaging activity to do together, especially in a pub or social setting. 
