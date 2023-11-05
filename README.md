@@ -27,3 +27,11 @@ The primary goal of this project is to create a quiz that allows users to test t
 - Students and Teachers: Educators who want to incorporate a fun and educational quiz about Ireland into their classroom activites, or students who are looking to supplement their education needs. 
 
 - Pubs and Social Gatherings: Friends and groups looking for a fun and engaging activity to do together, especially in a pub or social setting. 
+
+## User Stories:
+
+- As a user, I want to answer the variety of questions to test my knowledge.
+
+- As a user, I want to track my progress and see my overall score. 
+
+- As a user, I want to receive real-time feedback on whether my answers are correct or incorrect. 
