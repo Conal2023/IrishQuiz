@@ -1,4 +1,8 @@
 def intro():
+    """
+    Displays the introduction message, starts the game
+    and asks the player if they want to play again.
+    """
 
     print(
         """
@@ -30,6 +34,11 @@ def intro():
 
 
 def question_one():
+    """
+    Displays the first question of the quiz,
+    Prompts the player to answer the question
+    and gives a score.
+    """
     score = 0
     # QUESTION 1
     answer1 = input("What is the Capital of Ireland? \
@@ -49,7 +58,11 @@ def question_one():
 
 
 def question_two(score):
-
+    """
+    Displays the second question of the quiz,
+    Prompts the player to answer the question
+    and gives a score.
+    """
     # QUESTION 2
     answer2 = input("What province of Ireland is Dublin in? \
     \n1. Ulster \n2. Leinster \n3. Munster \n Enter 1-3: \
@@ -68,7 +81,11 @@ def question_two(score):
 
 
 def question_three(score):
-
+    """
+    Displays the third question of the quiz,
+    Prompts the player to answer the question
+    and gives a score.
+    """
     # QUESTION 3
     answer3 = input("What is the largest county in Ireland? \
     \n1. Cork \n2. Limerick \n3. Kerry \n Enter 1-3: \
@@ -87,7 +104,11 @@ def question_three(score):
 
 
 def question_four(score):
-
+    """
+    Displays the fourth question of the quiz,
+    Prompts the player to answer the question
+    and gives a score.
+    """
     # QUESTION 4
     answer4 = input("What is the most northerly county in Ireland? \
     \n1. Derry \n2. Donegal \n3. Antrim \n Enter 1-3: \
@@ -106,7 +127,11 @@ def question_four(score):
 
 
 def question_five(score):
-
+    """
+    Displays the fifth question of the quiz,
+    Prompts the player to answer the question
+    and gives a score.
+    """
     # QUESTION 5
     answer5 = input("Which famous river flows through Dublin \
     \n1. Shannon \n2. Liffey \n3. Lee \n Enter 1-3: \
@@ -125,7 +150,11 @@ def question_five(score):
 
 
 def question_six(score):
-
+    """
+    Displays the sixth question of the quiz,
+    Prompts the player to answer the question
+    and gives a score.
+    """
     # QUESTION 6
     answer6 = input("Which County K has the Nore and the Barrow? \
     \n1. Kildare \n2. Kerry \n3. Kilkenny \n Enter 1-3: \
@@ -144,7 +173,11 @@ def question_six(score):
 
 
 def question_seven(score):
-
+    """
+    Displays the seventh question of the quiz,
+    Prompts the player to answer the question
+    and gives a score.
+    """
     # QUESTION 7
     answer7 = input("Athlone is situated at the southern end of which lake? \
     \n1. Lough Ree \n2. Lough Leane \n3. Lough Neagh \n Enter 1-3: \
@@ -163,7 +196,11 @@ def question_seven(score):
 
 
 def question_eight(score):
-
+    """
+    Displays the eighth question of the quiz,
+    Prompts the player to answer the question
+    and gives a score.
+    """
     # QUESTION 8
     answer8 = input("Name the county town of Leitrim? \
     \n1. Leitrim \n2. Carrick-On-Shannon \n3. Cloone \n Enter 1-3: \
@@ -182,7 +219,11 @@ def question_eight(score):
 
 
 def question_nine(score):
-
+    """
+    Displays the nineth question of the quiz,
+    Prompts the player to answer the question
+    and gives a score.
+    """
     # QUESTION 9
     answer9 = input("What is the largest park in Dublin? \
     \n1. Phoenix Park \n2. Iveagh Gardens \n3. St Stephen's Green \
@@ -201,7 +242,11 @@ def question_nine(score):
 
 
 def question_ten(score):
-
+    """
+    Displays the tenth question of the quiz,
+    Prompts the player to answer the question
+    and gives a score.
+    """
     # QUESTION 10
     answer10 = input("What is the smallest County in Ireland? \
     \n1. Carlow \n2. Leitrim \n3. Louth \n Enter 1-3: \
@@ -218,12 +263,20 @@ def question_ten(score):
 
 
 def wrong_answer(correct_answer, score):
+    """
+    Displays the incorrect answer message and the correct answer,
+    displays the same score as the previous result.
+    """
     print("Incorrect! The answer is " + correct_answer)
     print("Score: ", score)
     print("\n")
 
 
 def correct_answer(score):
+    """
+    Displays the correct answer message and adds
+    1 to the score.
+    """
     score += 1
     print("Correct!")
     print("Score: ", score)
