@@ -33,11 +33,17 @@ def question_one():
     score = 0
     # QUESTION 1
     answer1 = input("What is the Capital of Ireland? \
-    \n1. Limerick \n2. Cork \n3. Dublin \nAnswer: ").lower()
-    if answer1 == "3" or answer1 == "dublin":
-        score = correct_answer(score)
-    else:
-        wrong_answer("Dublin", score)
+    \n1. Limerick \n2. Cork \n3. Dublin \n Enter 1-3: \
+    \nAnswer: ")
+    try:
+        if int(answer1) < 4 and int(answer1) > 0:
+            if answer1 == "3":
+                score = correct_answer(score)
+            else:
+                wrong_answer("Dublin", score)
+    except ValueError:
+        print("Please enter a number between 1 and 3")
+        question_one()
 
     question_two(score)
 
