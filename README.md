@@ -20,3 +20,14 @@
 
 - After the quiz is complete the player will be asked if they want to play again. They can only choose either yes or no. Yes and the games goes back to question one with the score reset. If no the game will goes back to the welcome screen. If the player types anything else in a message will appear to say "Please enter yes or no"
 
+## Features:
+
+- **Interactive Game** The game offers an interactive gaming experience, allowing the player to choose an answer and received a response straight back. 
+
+- **Mulitple Choice Questions** The player is presented with 10 multiple choice questions about Ireland. Each question tests the player knowledge on Ireland. 
+
+- **Informative** If the player gets a question wrong, the game tells the player they got it wrong and provides the player with the correct answer. 
+
+- **Score** The players score is tracked throughout the game and increases for each correct answer. 
+
+- **Play Again Feature** Once the player answers all ten questions they are giving the options of playing again. 
