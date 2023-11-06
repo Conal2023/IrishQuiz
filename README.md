@@ -35,3 +35,19 @@ The primary goal of this project is to create a quiz that allows users to test t
 - As a user, I want to track my progress and see my overall score. 
 
 - As a user, I want to receive real-time feedback on whether my answers are correct or incorrect. 
+
+## Features:
+
+### Welcome Screen 
+
+Here the player will be met with the "Irish Quiz" In ASCII Art with a welcome message. They will be asked to press Enter. Once done another welcome message appears with a "Good Luck!" Message too. 
+
+### Questions & Answers
+
+Once the player hit enter on the welcome screen, and the "Good Luck!" message appears the first question appears straight away. After the player chooses their answer they will get the correct answer along with a response of either "Correct!" or "Incorrect! The answer is ...". If the player answers correct their score will increase by one. 
+
+Once the first question is answered the second question will appear and so on until question 10. 
+
+### Play Again
+
+After the player gets the results for question ten a message will appear and ask the player "Do you want to play again? (yes/no): . The player needs to type in either yes or no. If the pleyer types yes the game will start again. If they type no the game will end. 
