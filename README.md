@@ -54,3 +54,7 @@ This project was deployed using Heroku.
 - The (www.w3schools.com) website helped with trying to figure out how to use the correct code and how to get it to work for me. 
 
 - Slack chats - When I was really struggling I was able to ask other students for help. 
+
+## Content:
+
+- The ASCII came from the (www.asciiart.eu) website. 
