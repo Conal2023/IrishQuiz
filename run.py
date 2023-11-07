@@ -179,7 +179,8 @@ def question_seven(score):
     and gives a score.
     """
     # QUESTION 7
-    answer7 = input("Q7: Athlone is situated at the southern end of which lake? \
+    answer7 = input("Q7: Athlone is situated at the \
+southern end of which lake? \
     \n1. Lough Ree \n2. Lough Leane \n3. Lough Neagh \n Enter 1-3: \
     \nAnswer: ")
     try:
