@@ -31,3 +31,26 @@
 - **Score** The players score is tracked throughout the game and increases for each correct answer. 
 
 - **Play Again Feature** Once the player answers all ten questions they are giving the options of playing again. 
+
+## Testing:
+
+- I have manaully tested the project using CI Python Linter with no errors showing. 
+
+- I have used bothe my local termianl and the Heroku website to run the quiz with no errors shwing up. 
+
+## Deployment:
+
+This project was deployed using Heroku. 
+- steps for deployment:
+    - Create a new Heroku app
+    - Set the builds to Python and NodeJS in that order
+    - Link the Heroku app to my repository
+    - Click Deploy
+
+## Credits:
+
+- The Code Institute Love-Sandwiches Project help me learn a lot about Python. 
+
+- The (www.w3schools.com) website helped with trying to figure out how to use the correct code and how to get it to work for me. 
+
+- Slack chats - When I was really struggling I was able to ask other students for help. 
