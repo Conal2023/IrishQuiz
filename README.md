@@ -50,7 +50,7 @@
 
 - I originally designed a rough flow chart with a very simple design. Once the website was built and was working made some changes to make it flow better and give the player a better experience. 
 
-![Flow Chart](assets/screenshots/flowchart.drawio)
+![Flow Chart](assets/screenshots/flowchart.JPG)
 
 ## Testing:
 
