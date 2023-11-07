@@ -5,6 +5,7 @@
 ## How to Play:
 
 - The game will display the games title "Irish Quiz" in ASCII Art with a welcome message "Welcome to the Irish Quiz!"
+
 ![Welcome Message](assets/screenshots/welcome_message.JPG)
 
 - The player is asked to select Enter to play. Once pressed the player will get 2 messages "Hello and welcome to the Irish Quiz" and "Good luck!"
