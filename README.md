@@ -32,6 +32,10 @@
 
 - **Play Again Feature** Once the player answers all ten questions they are giving the options of playing again. 
 
+## Design:
+
+- I originally designed a rough flow chart with a very simple design. Once the website was built and was working made some changes to make it flow better and give the player a better experience. 
+
 ## Testing:
 
 - I have manaully tested the project using CI Python Linter with no errors showing. 
@@ -58,3 +62,4 @@ This project was deployed using Heroku.
 ## Content:
 
 - The ASCII came from the (www.asciiart.eu) website. 
+- Flow Chart was designed using the (https://app.diagrams.net/) website
