@@ -9,23 +9,29 @@
 ![Welcome Message](assets/screenshots/welcome_message.JPG)
 
 - The player is asked to select Enter to play. Once pressed the player will get 2 messages "Hello and welcome to the Irish Quiz" and "Good luck!"
+
 ![Good Luck Message](assets/screenshots/good_luck_message.JPG)
 
 - Once the game begins the player is presented with a series of mulitiple choice questions. To answer a question the player must type the number corresponding with what they think is the correct answer (1,2,3) and hit enter.
+
 ![Question](assets/screenshots/questions.JPG) 
 
 - If the player answers the question correctly they will get a response of "Correct!" and their score will increase by one.
+
 ![Correct Answer](assets/screenshots/correct_answer.JPG)
 
 - If the player gets a question wrong they will get a response of "Incorrect! The answer is " and their score will remain the same.
+
 ![Incorrect Answer](assets/screenshots/incorrect_answer.JPG) 
 
 - If the player tries to type the answer in or selects a number other than 1-3 they will get a response "Please enter a number between 1 and 3" and the question will repeat itself. 
+
 ![Wrong Format Error](assets/screenshots/wrong_format_error.JPG)
 
 - The game will continue with the next question until you have completed all ten questions. 
 
 - After the quiz is complete the player will be asked if they want to play again. They can only choose either yes or no. Yes and the games goes back to question one with the score reset. If no the game will goes back to the welcome screen. If the player types anything else in a message will appear to say "Please enter yes or no"
+
 ![Play Again?](assets/screenshots/play_again.JPG)
 
 ## Features:
@@ -43,11 +49,13 @@
 ## Design:
 
 - I originally designed a rough flow chart with a very simple design. Once the website was built and was working made some changes to make it flow better and give the player a better experience. 
+
 ![Flow Chart](assets/screenshots/flowchart.drawio)
 
 ## Testing:
 
 - I have manaully tested the project using CI Python Linter with no errors showing. 
+
 ![CI Python Linter](assets/screenshots/ci_python_linter.JPG)
 
 - I have used bothe my local termianl and the Heroku website to run the quiz with no errors shwing up. 
