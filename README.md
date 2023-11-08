@@ -62,6 +62,12 @@
 
 - I have used bothe my local termianl and the Heroku website to run the quiz with no errors shwing up. 
 
+## Bugs:
+
+- Ran into an issue with my code when the options were only 1-3, I tried to put in a try statement which should have stopped the player from progressing if they typed in anything but 1-3 but this didnt work fully. It stopped them from type in a letter but they could still type in numbers other than 1-3. If they did this it wouldnt give them any score or an incorrect or correct message and would just skip onto the next question. After multiple attempts at trying to fix it I eventually found a way for it to work. This allows the player to pick either a, b, c, or 1, 2, 3,. Anything else it would give them an error advised them to select either a, b, c, or 1, 2, 3,. 
+
+- From the above bug I couldn't find a way to limit the options of what the player could choose and the response as a function. No matter what why I tried it I kept getting errors. This is something I wish to look at again when I have more experience with Python. 
+
 ## Deployment:
 
 This project was deployed using Heroku. 
