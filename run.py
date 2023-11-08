@@ -42,16 +42,19 @@ def question_one():
     score = 0
     # QUESTION 1
     answer1 = input("Q1: What is the Capital of Ireland? \
-    \n1. Limerick \n2. Cork \n3. Dublin \n Enter 1-3: \
-    \nAnswer: ")
-    try:
-        if int(answer1) < 4 and int(answer1) > 0:
-            if answer1 == "3":
-                score = correct_answer(score)
-            else:
-                wrong_answer("Dublin", score)
-    except ValueError:
-        print("Please enter a number between 1 and 3")
+    \na. Limerick \nb. Cork \nc. Dublin \nAnswer: ")
+    if answer1 in ['a', 'b', 'c']:
+        if answer1 == "c":
+            score = correct_answer(score)
+        else:
+            wrong_answer("Dublin", score)
+    elif answer1 in ['1', '2', '3']:
+        if int(answer1) == 3:
+            score = correct_answer(score)
+        else:
+            wrong_answer("Dublin", score)
+    else:
+        print("Please enter 'a', 'b','c' or '1', '2', '3'")
         question_one()
 
     question_two(score)
@@ -65,16 +68,19 @@ def question_two(score):
     """
     # QUESTION 2
     answer2 = input("Q2: What province of Ireland is Dublin in? \
-    \n1. Ulster \n2. Leinster \n3. Munster \n Enter 1-3: \
-    \nAnswer: ")
-    try:
-        if int(answer2) < 4 and int(answer2) > 0:
-            if answer2 == "2":
-                score = correct_answer(score)
-            else:
-                wrong_answer("Leinster", score)
-    except ValueError:
-        print("Please enter a number between 1 and 3")
+    \na. Ulster \nb. Leinster \nc. Munster \nAnswer: ")
+    if answer2 in ['a', 'b', 'c']:
+        if answer2 == "b":
+            score = correct_answer(score)
+        else:
+            wrong_answer("Leinster", score)
+    elif answer2 in ['1', '2', '3']:
+        if int(answer2) == 2:
+            score = correct_answer(score)
+        else:
+            wrong_answer("Leinster", score)
+    else:
+        print("Please enter 'a', 'b','c' or '1', '2', '3'")
         question_two(score)
 
     question_three(score)
@@ -88,16 +94,19 @@ def question_three(score):
     """
     # QUESTION 3
     answer3 = input("Q3: What is the largest county in Ireland? \
-    \n1. Cork \n2. Limerick \n3. Kerry \n Enter 1-3: \
-    \nAnswer: ")
-    try:
-        if int(answer3) < 4 and int(answer3) > 0:
-            if answer3 == "1":
-                score = correct_answer(score)
-            else:
-                wrong_answer("Cork", score)
-    except ValueError:
-        print("Please enter a number between 1 and 3")
+    \na. Cork \nb. Limerick \nc. Kerry \nAnswer: ")
+    if answer3 in ['a', 'b', 'c']:
+        if answer3 == "a":
+            score = correct_answer(score)
+        else:
+            wrong_answer("Cork", score)
+    elif answer3 in ['1', '2', '3']:
+        if int(answer3) == 1:
+            score = correct_answer(score)
+        else:
+            wrong_answer("Cork", score)
+    else:
+        print("Please enter 'a', 'b','c' or '1', '2', '3'")
         question_three(score)
 
     question_four(score)
@@ -111,16 +120,19 @@ def question_four(score):
     """
     # QUESTION 4
     answer4 = input("Q4: What is the most northerly county in Ireland? \
-    \n1. Derry \n2. Donegal \n3. Antrim \n Enter 1-3: \
-    \nAnswer: ")
-    try:
-        if int(answer4) < 4 and int(answer4) > 0:
-            if answer4 == "2":
-                score = correct_answer(score)
-            else:
-                wrong_answer("Donegal", score)
-    except ValueError:
-        print("Please enter a number between 1 and 3")
+    \na. Derry \nb. Donegal \nc. Antrim \nAnswer: ")
+    if answer4 in ['a', 'b', 'c']:
+        if answer4 == "b":
+            score = correct_answer(score)
+        else:
+            wrong_answer("Donegal", score)
+    elif answer4 in ['1', '2', '3']:
+        if int(answer4) == 2:
+            score = correct_answer(score)
+        else:
+            wrong_answer("Donegal", score)
+    else:
+        print("Please enter 'a', 'b','c' or '1', '2', '3'")
         question_four(score)
 
     question_five(score)
@@ -134,16 +146,19 @@ def question_five(score):
     """
     # QUESTION 5
     answer5 = input("Q5: Which famous river flows through Dublin \
-    \n1. Shannon \n2. Liffey \n3. Lee \n Enter 1-3: \
-    \nAnswer: ")
-    try:
-        if int(answer5) < 4 and int(answer5) > 0:
-            if answer5 == "2":
-                score = correct_answer(score)
-            else:
-                wrong_answer("Liffey", score)
-    except ValueError:
-        print("Please enter a number between 1 and 3")
+    \na. Shannon \nb. Liffey \nc. Lee \nAnswer: ")
+    if answer5 in ['a', 'b', 'c']:
+        if answer5 == "b":
+            score = correct_answer(score)
+        else:
+            wrong_answer("Liffey", score)
+    elif answer5 in ['1', '2', '3']:
+        if int(answer5) == 2:
+            score = correct_answer(score)
+        else:
+            wrong_answer("Liffey", score)
+    else:
+        print("Please enter 'a', 'b','c' or '1', '2', '3'")
         question_five(score)
 
     question_six(score)
@@ -157,16 +172,19 @@ def question_six(score):
     """
     # QUESTION 6
     answer6 = input("Q6: Which County K has the Nore and the Barrow? \
-    \n1. Kildare \n2. Kerry \n3. Kilkenny \n Enter 1-3: \
-    \nAnswer: ")
-    try:
-        if int(answer6) < 4 and int(answer6) > 0:
-            if answer6 == "3":
-                score = correct_answer(score)
-            else:
-                wrong_answer("Kilkenny", score)
-    except ValueError:
-        print("Please enter a number between 1 and 3")
+    \na. Kildare \nb. Kerry \nc. Kilkenny \nAnswer: ")
+    if answer6 in ['a', 'b', 'c']:
+        if answer6 == "c":
+            score = correct_answer(score)
+        else:
+            wrong_answer("Kilkenny", score)
+    elif answer6 in ['1', '2', '3']:
+        if int(answer6) == 3:
+            score = correct_answer(score)
+        else:
+            wrong_answer("Kilkenny", score)
+    else:
+        print("Please enter 'a', 'b','c' or '1', '2', '3'")
         question_six(score)
 
     question_seven(score)
@@ -181,16 +199,19 @@ def question_seven(score):
     # QUESTION 7
     answer7 = input("Q7: Athlone is situated at the \
 southern end of which lake? \
-    \n1. Lough Ree \n2. Lough Leane \n3. Lough Neagh \n Enter 1-3: \
-    \nAnswer: ")
-    try:
-        if int(answer7) < 4 and int(answer7) > 0:
-            if answer7 == "1":
-                score = correct_answer(score)
-            else:
-                wrong_answer("Lough Ree", score)
-    except ValueError:
-        print("Please enter a number between 1 and 3")
+    \na. Lough Ree \nb. Lough Leane \nc. Lough Neagh \nAnswer: ")
+    if answer7 in ['a', 'b', 'c']:
+        if answer7 == "a":
+            score = correct_answer(score)
+        else:
+            wrong_answer("Lough Ree", score)
+    elif answer7 in ['1', '2', '3']:
+        if int(answer7) == 1:
+            score = correct_answer(score)
+        else:
+            wrong_answer("Lough Ree", score)
+    else:
+        print("Please enter 'a', 'b','c' or '1', '2', '3'")
         question_seven(score)
 
     question_eight(score)
@@ -204,16 +225,19 @@ def question_eight(score):
     """
     # QUESTION 8
     answer8 = input("Q8: Name the county town of Leitrim? \
-    \n1. Leitrim \n2. Carrick-On-Shannon \n3. Cloone \n Enter 1-3: \
-    \nAnswer: ")
-    try:
-        if int(answer8) < 4 and int(answer8) > 0:
-            if answer8 == "2":
-                score = correct_answer(score)
-            else:
-                wrong_answer("Carrick-On-Shannon", score)
-    except ValueError:
-        print("Please enter a number between 1 and 3")
+    \na. Leitrim \nb. Carrick-On-Shannon \nc. Cloone \nAnswer: ")
+    if answer8 in ['a', 'b', 'c']:
+        if answer8 == "b":
+            score = correct_answer(score)
+        else:
+            wrong_answer("Carrick-On-Shannon", score)
+    elif answer8 in ['1', '2', '3']:
+        if int(answer8) == 2:
+            score = correct_answer(score)
+        else:
+            wrong_answer("Carrick-On-Shannon", score)
+    else:
+        print("Please enter 'a', 'b','c' or '1', '2', '3'")
         question_eight(score)
 
     question_nine(score)
@@ -228,15 +252,19 @@ def question_nine(score):
     # QUESTION 9
     answer9 = input("Q9: What is the largest park in Dublin? \
     \n1. Phoenix Park \n2. Iveagh Gardens \n3. St Stephen's Green \
-    \n Enter 1-3: \nAnswer: ")
-    try:
-        if int(answer9) < 4 and int(answer9) > 0:
-            if answer9 == "1":
-                score = correct_answer(score)
-            else:
-                wrong_answer("Phoenix Park", score)
-    except ValueError:
-        print("Please enter a number between 1 and 3")
+    \nAnswer: ")
+    if answer9 in ['a', 'b', 'c']:
+        if answer9 == "a":
+            score = correct_answer(score)
+        else:
+            wrong_answer("Phoenix Park", score)
+    elif answer9 in ['1', '2', '3']:
+        if int(answer9) == 1:
+            score = correct_answer(score)
+        else:
+            wrong_answer("Phoenix Park", score)
+    else:
+        print("Please enter 'a', 'b','c' or '1', '2', '3'")
         question_nine(score)
 
     question_ten(score)
@@ -250,16 +278,19 @@ def question_ten(score):
     """
     # QUESTION 10
     answer10 = input("Q10: What is the smallest County in Ireland? \
-    \n1. Carlow \n2. Leitrim \n3. Louth \n Enter 1-3: \
-    \nAnswer: ")
-    try:
-        if int(answer10) < 4 and int(answer10) > 0:
-            if answer10 == "3":
-                score = correct_answer(score)
-            else:
-                wrong_answer("Louth", score)
-    except ValueError:
-        print("Please enter a number between 1 and 3")
+    \n1. Carlow \n2. Leitrim \n3. Louth \nAnswer: ")
+    if answer10 in ['a', 'b', 'c']:
+        if answer10 == "c":
+            score = correct_answer(score)
+        else:
+            wrong_answer("Louth", score)
+    elif answer10 in ['1', '2', '3']:
+        if int(answer10) == 3:
+            score = correct_answer(score)
+        else:
+            wrong_answer("Louth", score)
+    else:
+        print("Please enter 'a', 'b','c' or '1', '2', '3'")
         question_ten(score)
 
 
