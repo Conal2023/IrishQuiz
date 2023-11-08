@@ -2,6 +2,8 @@
 
 **Irish Quiz** is a simple command-line quiz game to test the players knowledge of Ireland. The quiz has ten multi choice questions relating to Ireland. 
 
+[Link to live project](https://git.heroku.com/irish-quiz.git)
+
 ## How to Play:
 
 - The game will display the games title "Irish Quiz" in ASCII Art with a welcome message "Welcome to the Irish Quiz!"
