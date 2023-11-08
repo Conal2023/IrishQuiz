@@ -251,7 +251,7 @@ def question_nine(score):
     """
     # QUESTION 9
     answer9 = input("Q9: What is the largest park in Dublin? \
-    \n1. Phoenix Park \n2. Iveagh Gardens \n3. St Stephen's Green \
+    \na. Phoenix Park \nb. Iveagh Gardens \nc. St Stephen's Green \
     \nAnswer: ")
     if answer9 in ['a', 'b', 'c']:
         if answer9 == "a":
@@ -278,7 +278,7 @@ def question_ten(score):
     """
     # QUESTION 10
     answer10 = input("Q10: What is the smallest County in Ireland? \
-    \n1. Carlow \n2. Leitrim \n3. Louth \nAnswer: ")
+    \na. Carlow \nb. Leitrim \nc. Louth \nAnswer: ")
     if answer10 in ['a', 'b', 'c']:
         if answer10 == "c":
             score = correct_answer(score)
