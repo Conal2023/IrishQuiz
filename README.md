@@ -12,9 +12,9 @@
 
 ![Good Luck Message](assets/screenshots/good_luck_message.JPG)
 
-- Once the game begins the player is presented with a series of mulitiple choice questions. To answer a question the player must type the number corresponding with what they think is the correct answer (1,2,3) and hit enter.
+- Once the game begins the player is presented with a series of mulitiple choice questions. To answer a question the player must type the letter or number corresponding with what they think is the correct answer and hit enter.
 
-![Question](assets/screenshots/questions.JPG) 
+![Question](assets/screenshots/question.JPG) 
 
 - If the player answers the question correctly they will get a response of "Correct!" and their score will increase by one.
 
@@ -24,11 +24,13 @@
 
 ![Incorrect Answer](assets/screenshots/incorrect_answer.JPG) 
 
-- If the player tries to type the answer in or selects a number other than 1-3 they will get a response "Please enter a number between 1 and 3" and the question will repeat itself. 
+- If the player tries to type the answer in or selects a letter or number other than a, b, c, or 1, 2, 3, they will get a response "Please enter 'a', 'b', 'c' or '1', '2', '3'" and the question will repeat itself. 
 
-![Wrong Format Error](assets/screenshots/wrong_format_error.JPG)
+![Incorrect Selection](assets/screenshots/incorrect_selection.JPG)
 
-- The game will continue with the next question until you have completed all ten questions. 
+- The game will continue with the next question until you have completed all ten questions and a final score is given. 
+
+![Final Score](assets/screenshots/final_score.JPG)
 
 - After the quiz is complete the player will be asked if they want to play again. They can only choose either yes or no. Yes and the games goes back to question one with the score reset. If no the game will goes back to the welcome screen. If the player types anything else in a message will appear to say "Please enter yes or no"
 
